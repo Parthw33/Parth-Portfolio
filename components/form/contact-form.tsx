@@ -145,7 +145,7 @@ export function ContactForm({ className, currentEmail }: Props) {
         <Label htmlFor="email">Email</Label>
         <Input
           id="email"
-          placeholder="helloPart@gmail.com"
+          placeholder="helloParth@gmail.com"
           type="email"
           value={state.email}
           onChange={handleInputChange}

@@ -29,7 +29,7 @@ const Publications = () => {
   ];
 
   return (
-    <GridBackground spotlight={true} className="py-16">
+    <GridBackground spotlight={true} className="py-16" id="publication">
       <div className="container mx-auto px-4 no-scrollbar relative z-10">
         <div className="flex flex-col items-center mb-12">
           <h2 className="heading mb-4">Publications & Research</h2>

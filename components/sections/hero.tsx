@@ -73,10 +73,7 @@ export function Hero({ data }: Props) {
                   className="uppercase mb-5 text-left text-purple"
                 />
                 {data.moreInfo.split("\n\n").map((paragraph, index) => (
-                  <p
-                    className="leading-relaxed mb-2 last:mb-0"
-                    key={index}
-                  >
+                  <p className="leading-relaxed mb-2 last:mb-0" key={index}>
                     {paragraph}
                   </p>
                 ))}
@@ -86,14 +83,16 @@ export function Hero({ data }: Props) {
                 />
               </div>
 
-              <div className="flex justify-center order-1 lg:order-2 w-full max-h-[300px]  lg:w-[30%]">
-                <Image
-                  src={data.profileImage}
-                  width={400}
-                  height={400}
-                  alt={data.name}
-                  className="rounded-lg aspect-square overflow-hidden max-w-full"
-                />
+              <div className="flex justify-center order-1 lg:order-2 w-full lg:w-[30%]">
+                <div className="relative w-full aspect-[400/560] max-w-[400px]">
+                  <Image
+                    src={data.profileImage}
+                    fill
+                    alt={data.name}
+                    className="rounded-lg object-cover"
+                    sizes="(max-width: 768px) 100vw, 400px"
+                  />
+                </div>
               </div>
             </div>
           </div>

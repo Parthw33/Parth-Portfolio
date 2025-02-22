@@ -16,20 +16,19 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     title:
-      "Parth Wattamwar | React/Next.js Developer based in Himachal Pradesh, India",
+      "Parth Wattamwar | React/Next.js Developer based in Pune,India, India",
     description:
-      "Explore the portfolio of Parth Wattamwar based in Himachal Pradesh, a skilled React/Next.js Developer. Discover expertise in ReactJS, NextJS, Redux, Material UI, and TailwindCSS showcased through innovative web development projects.",
+      "Explore the portfolio of Parth Wattamwar based in Pune,India, a skilled React/Next.js Developer. Discover expertise in ReactJS, NextJS, Redux, Material UI, and TailwindCSS showcased through innovative web development projects.",
     images: [
       {
         url: "/og-image.webp",
-        alt: "Parth Wattamwar | React/Next.js Developer based in Himachal Pradesh, India",
+        alt: "Parth Wattamwar | React/Next.js Developer based in Pune,India, India",
       },
     ],
   },
-  title:
-    "Parth Wattamwar | React/Next.js Developer based in Himachal Pradesh, India",
+  title: "Parth Wattamwar | React/Next.js Developer based in Pune,India, India",
   description:
-    "Explore the portfolio of Parth Wattamwar based in Himachal Pradesh, a skilled React/Next.js Developer. Discover expertise in ReactJS, NextJS, Redux, Material UI, and TailwindCSS showcased through innovative web development projects.",
+    "Explore the portfolio of Parth Wattamwar based in Pune,India, a skilled React/Next.js Developer. Discover expertise in ReactJS, NextJS, Redux, Material UI, and TailwindCSS showcased through innovative web development projects.",
   keywords:
     "Parth Wattamwar, ReactJS Developer, NextJS Developer, ReactJS, NextJS, Redux, Material UI, TailwindCSS, Web Development, Portfolio, React developer, Next js developer, Himachal Pradesh, India",
   robots:
