@@ -7,7 +7,7 @@ import {
   EmailTemplateForAdmin,
 } from "@/components/email-templates";
 import { Resend } from "resend";
-import { client } from "@/studio-portfolio/lib";
+import { client } from "@/sanity/lib";
 
 interface FormData {
   name: string;
