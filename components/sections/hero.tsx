@@ -31,8 +31,8 @@ export function Hero({ data }: Props) {
             <h6 className="text-center !leading-7 md:!leading-10  font-semibold text-2 lg:text-3xl max-w-xl  text-blue-100 ">
               Based in {data.address},
               <br />
-              Specialized in <Highlight delay={1.8}>React</Highlight> and{" "}
-              <Highlight delay={1.8}>Next.js</Highlight>
+              Specialized in <Highlight delay={1.8}>Next.js</Highlight> and{" "}
+              <Highlight delay={1.8}>Backend</Highlight>
             </h6>
           </MotionUp>
 
@@ -67,19 +67,21 @@ export function Hero({ data }: Props) {
             }}
           >
             <div className="flex gap-8 flex-wrap lg:flex-nowrap lg:gap-16 overflow-hidden">
-              <div className="order-2 lg:order-1 w-full  lg:w-[70%]">
+              <div className="order-2 lg:order-1 w-full lg:w-[70%]">
                 <Heading
                   text="My Journey"
                   className="uppercase mb-5 text-left text-purple"
                 />
+
                 {data.moreInfo.split("\n\n").map((paragraph, index) => (
-                  <p className="leading-relaxed mb-2 last:mb-0" key={index}>
+                  <p key={index} className="leading-relaxed mb-2 last:mb-0">
                     {paragraph}
                   </p>
                 ))}
+
                 <TextAppearAnimation
-                  className="text-white italic font-semibold text-xl mt-5 uppercase animate-pulse"
                   text="Strongly believe in Karma"
+                  className="text-white italic font-semibold text-xl mt-5 uppercase animate-pulse"
                 />
               </div>
 
